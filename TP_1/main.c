@@ -1,14 +1,3 @@
-/***********************************************************************
-* Programa: Calculadora de 5 funciones
-*
-* Objetivo:
-* Realizar calculos matematicos con 2 numeros (solicitados al usuario)
-*
-* Version: 1.0 - 02/04/2017
-* Autor: Alejandro Ben
-*
-***********************************************************************/
-
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -80,7 +69,7 @@ int main()
                         printf("\n El resultado de la multiplicacion es: %f \n", multiplicacion(x, y) );
                         break;
                     case 7: // Calcular el factorial (A!)
-                        if (x>=0 && x<=100) // limito la opcion de cálculo de factorial a un rango para el cual puedo mostrar la solucion (<=100) o que exista solucion (>=0)
+                        if (x>=0 && x<=100) // limito la opcion de cÃ¡lculo de factorial a un rango para el cual puedo mostrar la solucion (<=100) o que exista solucion (>=0)
                             { printf("\n El factorial de la parte entera de %f es: %.0f", x, factorial(x) ); }
                         else
                             { factorial(x); }// para mostrar las leyendas de la funcion factorial cuando el valor de A esta fuera del rango de calculo
