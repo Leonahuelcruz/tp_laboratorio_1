@@ -1,17 +1,3 @@
-/********************************************************************************************
- *
- * Programa: Base de datos de Personas
- *
- * Objetivo:
- * Crear una base de datos de personas y poder listarla ordenadamente y graficarla.
- *
- * Version: 1.0 22 de Abril de 2017.
- * Autor: Ben Alejandro
- *
- ********************************************************************************************/
-
-
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
